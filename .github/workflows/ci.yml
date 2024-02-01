@@ -6,6 +6,7 @@ jobs:
   teste_aula:
       runs-on: ubuntu-latest
       steps: 
+      
         -  name: Etapa obrigatoria "Checkout"
            uses: actions/checkout@v4
 
